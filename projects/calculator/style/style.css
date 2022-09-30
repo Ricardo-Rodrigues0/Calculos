@@ -1,0 +1,128 @@
+/*     #=------------------------=------------------------=#   -->
+<!--   #                 • Calculos                        #   -->
+<!--   #                                                   #   -->
+<!--   #      • Projeto com funções de calculos sendo      #   -->
+<!--   #      • desenvolvido para afins de estudos.        #   -->
+<!--   #      • Autor:  Ricardo Rodrigues                  #   -->
+<!--   #                                                   #   -->
+<!--   #                 • Contato                         #   -->
+<!--   #                                                   #   -->
+<!--   #      • Discord:  HunTer#1594                      #   -->
+<!--   #      • Email:  ricardo272530@gmail.com            #   -->
+<!--   #=------------------------=------------------------=#   --> */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, rgb(89, 165, 216), rgb(19, 60, 85));
+    height: 100vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 60px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(89, 165, 216);
+    border-radius: 10px;
+}
+
+.box-title {
+    color: #84D2F6;
+    margin: 0px 15px;
+    font-family: monospace;
+    font-size: 1cm;
+}
+
+#resultado {
+    width: 253px;
+    background-color: rgb(31, 31, 31);
+    height: 45px;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.botao {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #133C55;
+    color: #FFF;
+    width: 100%;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer-text {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+}
+
+.footer-custom {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-custom:hover {
+    color: #84D2F6;
+    text-decoration: underline
+}
+
+.footer-left {
+    position: absolute;
+    margin: 20px;
+    top: -20%;
+    left: 0%;
+}
+
+.footer-right {
+    position: absolute;
+    margin: 20px;
+    top: -20%;
+    right: 0%;
+}
+
+.footer-icon-custom {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 8px 8px;
+}
+
+.footer-icon-custom:hover {
+    color: #84D2F6;
+}
