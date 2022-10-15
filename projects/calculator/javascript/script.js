@@ -1,17 +1,3 @@
-// <!--   #=------------------------=------------------------=#   -->
-// <!--   #                 • Calculos                        #   -->
-// <!--   #                                                   #   -->
-// <!--   #      • Projeto com funções de calculos sendo      #   -->
-// <!--   #      • desenvolvido para afins de estudos.        #   -->
-// <!--   #      • Autor:  Ricardo Rodrigues                  #   -->
-// <!--   #                                                   #   -->
-// <!--   #                 • Contato                         #   -->
-// <!--   #                                                   #   -->
-// <!--   #      • Discord:  HunTer#1594                      #   -->
-// <!--   #      • Email:  ricardo272530@gmail.com            #   -->
-// <!--   #=------------------------=------------------------=#   -->
-
-
 function insert(num) {
     var numero = document.getElementById('resultado').value;
     document.getElementById('resultado').value = numero + num;
