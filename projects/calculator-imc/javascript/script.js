@@ -1,18 +1,3 @@
-// <!--   #=------------------------=------------------------=#   -->
-// <!--   #                 • Calculos                        #   -->
-// <!--   #                                                   #   -->
-// <!--   #      • Projeto com funções de calculos sendo      #   -->
-// <!--   #      • desenvolvido para afins de estudos.        #   -->
-// <!--   #      • Autor:  Ricardo Rodrigues                  #   -->
-// <!--   #                                                   #   -->
-// <!--   #                 • Contato                         #   -->
-// <!--   #                                                   #   -->
-// <!--   #      • Discord:  HunTer#1594                      #   -->
-// <!--   #      • Email:  ricardo272530@gmail.com            #   -->
-// <!--   #=------------------------=------------------------=#   -->
-
- // console.log(num1.toFixed(2));
-
 function calcularIMC() {
     var peso = eval(document.form.peso.value)
     var alt = eval(document.form.alt.value)
